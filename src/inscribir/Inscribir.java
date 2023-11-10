@@ -15,7 +15,7 @@ public class Inscribir {
      */
     public static void main(String[] args) {
 
-        Materia miCorrelativa = new Materia("Análisis Matemático I", 1, false, 7);
+        Materia miCorrelativa = new Materia("Análisis Matemático I", 1, false, 6);
         Materia laCursada = new Materia("Análisis Matemático II", 2, true, 0);
         Alumno elAlumno = new Alumno("Pepe", "Grillo", 22);
         Inscripcion laInscripcion = new Inscripcion(elAlumno, laCursada);
